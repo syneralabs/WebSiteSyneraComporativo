@@ -84,9 +84,9 @@ export function HeroSection() {
         {/* Stats */}
         <div className="mt-16 grid grid-cols-2 sm:grid-cols-4 gap-6 max-w-3xl mx-auto">
           {[
-            { value: '2', label: 'Projetos Entregues' },
+            { value: '0', label: 'Projetos Entregues' },
             { value: '0', label: 'Clientes Satisfeitos' },
-            { value: '1', label: 'Anos de Experiência' },
+            { value: '2', label: 'Anos de Experiência' },
             { value: '99%', label: 'Uptime Garantido' },
           ].map((stat) => (
             <div key={stat.label} className="glass rounded-xl p-4 border border-border/60 text-center">

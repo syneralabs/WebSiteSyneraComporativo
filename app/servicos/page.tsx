@@ -66,7 +66,7 @@ const plans = [
     features: [
       'Tudo do plano Profissional',
       'Arquitetura de microsserviços',
-      'App mobile iOS + Android',
+      'App mobile Android',
       'Integrações avançadas',
       'SLA e uptime garantido',
       'Equipe dedicada',

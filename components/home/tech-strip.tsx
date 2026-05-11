@@ -1,6 +1,6 @@
 const techs = [
   'React', 'Next.js', 'TypeScript', 'Node.js', 'Tailwind CSS',
-  'PostgreSQL', 'MongoDB', 'Vercel', 'GraphQL', 'Java'
+  'Supabase', 'MongoDB', 'Vercel', 'Java'
 ]
 
 export function TechStrip() {
