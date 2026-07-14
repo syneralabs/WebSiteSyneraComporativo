@@ -13,21 +13,31 @@ const projects = [
     border: 'border-blue-500/20',
   },
   {
-    title: 'Projeto2 Julio ',
-    category: 'Fintech',
-    description: 'Dashboard financeiro com integrações bancárias, relatórios e alertas de gastos inteligentes.',
-    tags: ['Java', 'JavaScript', 'SQL'],
+    title: 'Clínica EB - Website Institucional ',
+    category: 'Clinica de Estética',
+    description: 'O Clínica EB é um website institucional desenvolvido para uma clínica de estética, com foco em apresentar serviços, divulgar tratamentos e proporcionar uma experiência moderna e intuitiva aos usuários.',
+    tags: ['HTML', 'JavaScript', 'CSS'],
     color: 'from-emerald-500/20 to-teal-500/20',
     border: 'border-emerald-500/20',
   },
   {
-    title: 'projeto3 em aberto',
-    category: 'Logística',
-    description: 'Sistema de rastreamento e gestão logística com mapa em tempo real e notificações push.',
-    tags: ['React Native', 'WebSockets', 'MongoDB'],
+    title: 'App-Personal-Treiner',
+    category: 'Gestão de Treinos',
+    description: 'Aplicativo móvel desenvolvido para auxiliar personal trainers e seus clientes no acompanhamento de treinos, com recursos de agendamento, acompanhamento de progresso e comunicação direta entre treinador e cliente.',
+    tags: ['React Native', 'WebSockets', 'SupraBase', 'Next.js'],
     color: 'from-orange-500/20 to-amber-500/20',
     border: 'border-orange-500/20',
   },
+
+  {
+    title: 'Internet-Scanner',
+    category: 'Automação de Relatórios',
+    description: 'Gestão de relatorios com uso de AI integrada a Whatsapp e Telegram, para envio de relatorios automatizados.',
+    tags: ['React Native', 'WebSockets', 'SupraBase', 'Next.js'],
+    color: 'from-orange-500/20 to-amber-500/20',
+    border: 'border-orange-500/20',
+  },
+
 ]
 
 export function ProjectsPreview() {
