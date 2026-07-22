@@ -6,6 +6,7 @@ import { ServicesSection } from '@/components/home/services-section'
 import { ProjectsPreview } from '@/components/home/projects-preview'
 import { TestimonialsSection } from '@/components/home/testimonials-section'
 import { CtaSection } from '@/components/home/cta-section'
+import { Analytics } from '@vercel/analytics/next';
 
 export default function HomePage() {
   return (
@@ -20,6 +21,7 @@ export default function HomePage() {
         <CtaSection />
       </main>
       <Footer />
+      <Analytics />
     </>
   )
 }
