@@ -20,7 +20,7 @@ const allProjects = [
   },
   {
     title: 'Clínica EB - Website Institucional ',
-    category: 'Clinica de Estética',
+    category: 'Estética',
     description:
       'O Clínica EB é um website institucional desenvolvido para uma clínica de estética, com foco em apresentar serviços, divulgar tratamentos e proporcionar uma experiência moderna e intuitiva aos usuários.',
     tags: ['HTML', 'JavaScript', 'CSS'],
@@ -54,7 +54,7 @@ const allProjects = [
 
   {
     title: 'App Estetica Mobile',
-    category: 'Uso para com base na AI ela te diz o melhor procedimento',
+    category: 'Estética',
     description:
       'Em construção no momento sem descrições',
     tags: ['React Native', 'Expo', 'SupraBase', 'Nest.js', 'TypeScript', 'AI'],

@@ -104,7 +104,7 @@ export function Navbar() {
         {isOpen && (
           <div
             id="mobile-menu"
-            className="md:hidden mt-4 pb-4 border-t border-border/60 pt-4 animate-fade-in"
+            className="md:hidden mt-4 rounded-xl border border-border bg-secondary p-4 animate-fade-in"
           >
             <ul className="flex flex-col gap-1" role="list">
               {navLinks.map((link) => (

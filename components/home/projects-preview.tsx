@@ -38,6 +38,15 @@ const projects = [
     border: 'border-orange-500/20',
   },
 
+  {
+    title: 'App Estetica Mobile',
+    category: 'Estética',
+    description: 'Sem descrição em desenvolvimento',
+    tags: ['React Native', 'TypeScript', 'SupraBase', 'Node', 'Ai'],
+    color: 'from-orange-500/20 to-amber-500/20',
+    border: 'border-orange-500/20',
+  },
+
 ]
 
 export function ProjectsPreview() {
