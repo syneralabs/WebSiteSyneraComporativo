@@ -51,6 +51,19 @@ const allProjects = [
     accent: 'text-orange-400',
     year: '2026',
   },
+
+  {
+    title: 'App Estetica Mobile',
+    category: 'Uso para com base na AI ela te diz o melhor procedimento',
+    description:
+      'Em construção no momento sem descrições',
+    tags: ['React Native', 'Expo', 'SupraBase', 'Nest.js', 'TypeScript', 'AI'],
+    color: 'from-orange-500/30 to-amber-500/20',
+    border: 'border-orange-500/20',
+    accent: 'text-orange-400',
+    year: '2026',
+  },
+
 ]
 
 const categories = ['Todos', ...Array.from(new Set(allProjects.map((p) => p.category)))]
