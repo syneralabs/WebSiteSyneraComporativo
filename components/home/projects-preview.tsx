@@ -56,7 +56,7 @@ const linksredirecionamento = [
   },
   {
     title: 'Clínica EB - Website Institucional ',
-    url: '',
+    url: 'https://clinicaebsaudeeestetica.vercel.app/',
   },
   {
     title: 'App-Personal-Treiner',
