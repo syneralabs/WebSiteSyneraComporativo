@@ -49,6 +49,29 @@ const projects = [
 
 ]
 
+const linksredirecionamento = [
+  {
+    title: 'petShopEstoque',
+    url: 'https://github.com/MuriloAraujo174/Pet-Shop_Estoque',
+  },
+  {
+    title: 'Clínica EB - Website Institucional ',
+    url: '',
+  },
+  {
+    title: 'App-Personal-Treiner',
+    url: '',
+  },
+  {
+    title: 'Internet-Scanner',
+    url: '',
+  },
+  {
+    title: 'App Estetica Mobile',
+    url: '',
+  }
+]
+
 export function ProjectsPreview() {
   return (
     <section className="py-24 bg-card/30" aria-labelledby="projects-preview-title">
@@ -85,9 +108,14 @@ export function ProjectsPreview() {
               <div className="p-6">
                 <div className="flex items-center justify-between mb-3">
                   <span className="text-xs font-mono text-primary uppercase tracking-widest">{p.category}</span>
-                  <ExternalLink 
-                  className="w-4 h-4 text-muted-foreground group-hover:text-primary transition-colors" 
-                  aria-hidden="true" />
+                  
+                  <a href={linksredirecionamento.find((l) => l.title === p.title)?.url} target="_blank" rel="noopener noreferrer">
+                    <ExternalLink 
+                      className="w-4 h-4 text-muted-foreground group-hover:text-primary transition-colors" 
+                      aria-hidden="true" 
+                    />
+                  </a>
+                  
                 </div>
                 <h3 className="text-xl font-bold text-foreground mb-2">{p.title}</h3>
                 <p className="text-sm text-muted-foreground leading-relaxed mb-4">{p.description}</p>
