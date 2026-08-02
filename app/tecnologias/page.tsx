@@ -18,6 +18,7 @@ const categories = [
       { name: 'TypeScript', desc: 'Superset do JavaScript com tipagem estática', level: 90 },
       { name: 'Tailwind CSS', desc: 'Framework utilitário para estilização rápida', level: 95 },
       { name: 'React Native', desc: 'Apps móveis nativos multiplataforma', level: 80 },
+      { name: 'JavaScript', desc: 'Linguagem de programação para web', level: 90 },
     ],
   },
   {
@@ -30,6 +31,8 @@ const categories = [
       { name: 'Node.js', desc: 'Runtime JavaScript de alta performance no servidor', level: 92 },
       { name: 'Java', desc: 'Framework minimalista para APIs REST', level: 88 },
       { name: 'Python', desc: 'Scripts, automações e serviços de dados', level: 75 },
+      { name: 'Express.js', desc: 'Framework minimalista para APIs REST', level: 90 },
+      { name: 'Spring Boot', desc: 'Framework para desenvolvimento de aplicações Java', level: 85 },
     ],
   },
   {
@@ -42,7 +45,6 @@ const categories = [
       { name: 'PostgreSQL', desc: 'Banco relacional robusto e ACID-compliant', level: 90 },
       { name: 'MongoDB', desc: 'Banco NoSQL orientado a documentos', level: 85 },
       { name: 'SQL', desc: 'Banco relacional amplamente utilizado', level: 80 },
-      { name: 'Supabase', desc: 'Backend-as-a-Service com PostgreSQL', level: 88 },
     ],
   },
   {
@@ -54,7 +56,7 @@ const categories = [
     techs: [
       // { name: 'AWS', desc: 'Infraestrutura cloud líder de mercado', level: 80 },
       { name: 'Vercel', desc: 'Deploy e edge network para front-end', level: 95 },
-      // { name: 'Docker', desc: 'Containerização de aplicações', level: 85 },
+      { name: 'Docker', desc: 'Containerização de aplicações', level: 85 },
       { name: 'GitHub Actions', desc: 'CI/CD automatizado integrado ao GitHub', level: 88 },
       // { name: 'Nginx', desc: 'Servidor web e proxy reverso', level: 80 },
     ],
@@ -70,7 +72,7 @@ const categories = [
       { name: 'Figma', desc: 'Design e prototipagem de interfaces', level: 85 },
       { name: 'Jira', desc: 'Gestão de projetos e testes', level: 82 },
       // { name: 'Prisma', desc: 'ORM type-safe para Node.js', level: 88 },
-      // { name: 'Stripe', desc: 'Pagamentos online integrados', level: 80 },
+      { name: 'Stripe', desc: 'Pagamentos online integrados', level: 80 },
     ],
   },
 ]

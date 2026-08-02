@@ -85,7 +85,9 @@ export function ProjectsPreview() {
               <div className="p-6">
                 <div className="flex items-center justify-between mb-3">
                   <span className="text-xs font-mono text-primary uppercase tracking-widest">{p.category}</span>
-                  <ExternalLink className="w-4 h-4 text-muted-foreground group-hover:text-primary transition-colors" aria-hidden="true" />
+                  <ExternalLink 
+                  className="w-4 h-4 text-muted-foreground group-hover:text-primary transition-colors" 
+                  aria-hidden="true" />
                 </div>
                 <h3 className="text-xl font-bold text-foreground mb-2">{p.title}</h3>
                 <p className="text-sm text-muted-foreground leading-relaxed mb-4">{p.description}</p>
